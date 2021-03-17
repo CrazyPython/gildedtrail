@@ -70,4 +70,4 @@ Lexed and parsed:
 Lexes and parses [GuidedTrack](https://www.guidedtrack.com/) syntax
 
 ## License
-AGPL-3.0+, but I make exceptions. Contact me via email.
+AGPLv3 or any later version, but I make exceptions. Contact me via email.
