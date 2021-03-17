@@ -75,4 +75,6 @@ Lexes and parses [GuidedTrack](https://www.guidedtrack.com/) syntax
 `node instanceof TextNode` - check if a node is a text node
 
 ## License
-AGPLv3 or any later version, but I make exceptions. Contact me via email.
+LGPLv3 or any later version.
+
+If you are building an open-source GuidedTrack alternative or reimplementation, I reccomend you license under AGPLv3 to protect user rights and prevent GuidedTrack from stealing your code. GuidedTrack generates its code on the server-side, so without the AGPLv3, they could use your software to make a proprietary version.
