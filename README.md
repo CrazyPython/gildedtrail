@@ -1,5 +1,5 @@
 # GildedTrail v0.0.1
-A metalanguage for defining configurations for building simple applications
+A metalanguage for defining configurations for building simple applications and a syntax parser for domain-specific languages
 
 Example code:
 ```
