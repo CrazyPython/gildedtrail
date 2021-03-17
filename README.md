@@ -1,4 +1,4 @@
-# GildedTrail
+# GildedTrail v0.0.1
 A metalanguage for defining configurations for building simple applications
 
 Example code:
@@ -68,6 +68,11 @@ Lexed and parsed:
 ```
 
 Lexes and parses [GuidedTrack](https://www.guidedtrack.com/) syntax
+
+### Documentation
+`node instanceof Keyword` - check if a node is a keyword
+
+`node instanceof TextNode` - check if a node is a text node
 
 ## License
 AGPLv3 or any later version, but I make exceptions. Contact me via email.
