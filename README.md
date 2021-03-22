@@ -1,4 +1,4 @@
-# GildedTrail v0.0.1
+# GildedTrail v0.0.3
 A metalanguage for defining configurations for building simple applications and a syntax parser for domain-specific languages
 
 A starting point for building an open-source GuidedTrack alernative.

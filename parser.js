@@ -56,6 +56,9 @@ function TextNode(text) {
     this.text = text;
     this.children = [];
 }
+function ArrowedStatement(text) {
+    this.data = text;
+}
 function parse(s) {
     let stack = [[]];
     // console.log(s.split('\n'))
@@ -64,8 +67,9 @@ function parse(s) {
             let [, ident, data] = line.slice(1).match('([a-zA-Z0-9]+)(?:[ \t\f\v]*:[ \t\f\v]*(.+))?')
             let newKeyword = new Keyword(ident, data);
             stack.last().push(new Keyword(ident, data));
-        } else if (line[0] === '>') {
-
+        } else if (line[0] === '>' && line[1] === '>') {
+            let text = line.slice(2);
+            stack.last().push(new ArrowedStatement(text));
         } else if (line[0] === START_BLOCK) {
             stack.push(stack.last().last().children);
         } else if (line[0] === END_BLOCK) {
